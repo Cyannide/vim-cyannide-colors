@@ -1,6 +1,6 @@
--- moonfly color scheme for lualine
+-- cyannide color scheme for lualine
 --
--- URL:     github.com/bluz71/vim-moonfly-colors
+-- URL:     github.com/Cyannide/vim-cyannide-colors
 -- License: MIT (https://opensource.org/licenses/MIT)
 
 -- LuaFormatter off
