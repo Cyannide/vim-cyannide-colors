@@ -10,7 +10,7 @@ if exists('g:colors_name')
         syntax reset
     endif
 endif
-let g:colors_name='cyannide'
+let g:colors_name='vim-cyannide-colors'
 
 " By default do not color the cursor.
 let g:moonflyCursorColor = get(g:, 'moonflyCursorColor', v:false)
