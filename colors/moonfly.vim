@@ -10,7 +10,7 @@ if exists('g:colors_name')
         syntax reset
     endif
 endif
-let g:colors_name='moonfly'
+let g:colors_name='cyannide'
 
 " By default do not color the cursor.
 let g:moonflyCursorColor = get(g:, 'moonflyCursorColor', v:false)
