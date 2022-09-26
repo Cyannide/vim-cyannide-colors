@@ -39,7 +39,8 @@ let g:cyannideUnderlineMatchParen = get(g:, 'cyannideUnderlineMatchParen', v:fal
 let g:cyannideWinSeparator = get(g:, 'cyannideWinSeparator', 1)
 
 " Background and foreground
-let s:black     = {"hex": '#080808', "term": 232}
+"let s:black     = {"hex": '#080808', "term": 232}
+let s:black     = {"hex": '#000000', "term": 232}
 let s:white     = {"hex": '#c6c6c6', "term": 251}
 " Variations of charcoal-grey
 let s:grey0     = {"hex": '#323437', "term": 0  }
