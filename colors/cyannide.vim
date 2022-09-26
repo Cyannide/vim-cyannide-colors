@@ -170,9 +170,9 @@ exec 'highlight ModeMsg ctermfg=' . s:grey247.term . ' guifg=' . s:grey247.hex .
 
 " Comments
 if g:cyannideItalics
-    exec 'highlight Comment ctermfg=' . s:grey246.term . ' guifg=' . s:grey246.hex . ' gui=italic'
+    exec 'highlight Comment ctermfg=' . s:grey249.term . ' guifg=' . s:grey249.hex . ' gui=italic'
 else
-    exec 'highlight Comment ctermfg=' . s:grey246.term . ' guifg=' . s:grey246.hex
+    exec 'highlight Comment ctermfg=' . s:grey249.term . ' guifg=' . s:grey249.hex
 endif
 
 " Functions
