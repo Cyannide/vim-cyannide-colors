@@ -917,10 +917,10 @@ if has('nvim-0.6')
         exec 'highlight DiagnosticUnderlineInfo ctermbg=NONE guibg=NONE gui=underline guisp=' . s:yellow.hex
         exec 'highlight DiagnosticUnderlineHint ctermbg=NONE guibg=NONE gui=underline guisp=' . s:sky.hex
     endif
-    highlight! link DiagnosticVirtualTextError MoonflyGrey241
-    highlight! link DiagnosticVirtualTextWarn MoonflyGrey241
-    highlight! link DiagnosticVirtualTextInfo MoonflyGrey241
-    highlight! link DiagnosticVirtualTextHint MoonflyGrey241
+    highlight! link DiagnosticVirtualTextError MoonflyRed
+    highlight! link DiagnosticVirtualTextWarn MoonflyYellow
+    highlight! link DiagnosticVirtualTextInfo MoonflySky
+    highlight! link DiagnosticVirtualTextHint MoonflyWhite
     highlight! link DiagnosticSignError MoonflyRedAlert
     highlight! link DiagnosticSignWarn MoonflyYellowAlert
     highlight! link DiagnosticSignInfo MoonflySkyAlert
