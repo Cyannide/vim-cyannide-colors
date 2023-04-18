@@ -75,6 +75,7 @@ let s:crimson   = {"hex": '#ff5189', "term": 9 }
 let s:red       = {"hex": '#ff5454', "term": 1 }
 " Extra colors
 let s:spring    = {"hex": '#00875f', "term": 29}
+let s:sunset    = {"hex": '#8f5222', "term": 7 }
 
 " Specify the colors used by the inbuilt terminal of Neovim and Vim
 if g:cyannideTerminalColors
@@ -223,7 +224,7 @@ highlight! link Repeat MoonflyViolet
 
 " Search
 exec 'highlight Search ctermbg=' . s:grey241.term . ' ctermfg=' . s:grey254.term . ' cterm=none guibg=' . s:grey241.hex . ' guifg=' . s:grey254.hex . ' gui=none'
-exec 'highlight CurSearch ctermbg=' . s:coral.term . ' ctermfg=bg cterm=none guibg=' . s:coral.hex . ' guifg=bg gui=none'
+exec 'highlight CurSearch ctermbg=' . s:khaki.term . ' ctermfg=bg cterm=none guibg=' . s:khaki.hex . ' guifg=bg gui=none'
 exec 'highlight IncSearch ctermbg=' . s:yellow.term . ' ctermfg=bg cterm=none guibg=' . s:yellow.hex . ' guifg=bg gui=none'
 
 " '\n' sequences
@@ -319,7 +320,7 @@ exec 'highlight Conceal ctermbg=NONE ctermfg=' . s:grey249.term . ' guibg=NONE g
 
 " Neovim only highlight groups
 if has('nvim')
-    exec 'highlight Whitespace ctermfg=' . s:grey0.term . ' guifg=' . s:grey0.hex
+    exec 'highlight Whitespace ctermfg=' . s:sunset.term . ' guifg=' . s:sunset.hex
     exec 'highlight TermCursor ctermbg=' . s:grey247.term . ' ctermfg=bg cterm=none guibg=' . s:grey247.hex . ' guifg=bg gui=none'
     if g:cyannideNormalFloat
         exec 'highlight NormalFloat ctermbg=bg ctermfg=' . s:grey249.term . ' guibg=bg guifg=' . s:grey249.hex
